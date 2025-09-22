@@ -1,0 +1,75 @@
+{
+    "name": "Retro Computer Sounds",
+    "description": "Just some fun retro computer sounds",
+    "developer": {
+        "name": "Evan Tanner"
+    },
+    "icons": {
+        "512": "art.png"
+    },
+    "manifest_version": 3,
+    "mod": {
+        "license": "license.txt",
+        "schema_version": 1,
+        "payload": {
+            "browser_sounds": [
+                {
+                    "CLICK": [
+                        "sounds/click.mp3"
+                    ],
+                    "FEATURE_SWITCH_OFF": [
+                        "sounds/browser/floppy_remove.mp3"
+                    ],
+                    "FEATURE_SWITCH_ON": [
+                        "sounds/browser/floppy_insert.mp3"
+                    ],
+                    "IMPORTANT_CLICK": [
+                        "sounds/click.mp3"
+                    ],
+                    "LIMITER_OFF": [
+                        "sounds/browser/floppy_remove.mp3"
+                    ],
+                    "LIMITER_ON": [
+                        "sounds/browser/floppy_insert.mp3"
+                    ],
+                    "SWITCH_TOGGLE": [
+                        "sounds/brower/beep.mp3"
+                    ],
+                    "TAB_CLOSE": [
+                        "sounds/brower/floppy_read1.mp3",
+                        "sounds/brower/floppy_read2.mp3",
+                        "sounds/brower/floppy_read3.mp3"
+                    ],
+                    "TAB_INSERT": [
+                        "sounds/brower/floppy_read1.mp3",
+                        "sounds/brower/floppy_read2.mp3",
+                        "sounds/brower/floppy_read3.mp3"
+                    ],
+                    "TAB_SLASH": [
+                        "sounds/brower/off.mp3"
+                    ]
+                }
+            ],
+            "keyboard_sounds": [
+                {
+                    "TYPING_BACKSPACE": [
+                        "sounds/keyboard/backspace.mp3"
+                    ],
+                    "TYPING_ENTER": [
+                        "sounds/keyboard/enter.mp3"
+                    ],
+                    "TYPING_LETTER": [
+                        "sounds/keyboard/keyboard1.mp3",
+                        "sounds/keyboard/keyboard2.mp3",
+                        "sounds/keyboard/keyboard3.mp3",
+                        "sounds/keyboard/keyboard4.mp3"
+                    ],
+                    "TYPING_SPACE": [
+                        "sounds/keyboard/spacebar.mp3"
+                    ]
+                }
+            ]
+        }
+    },
+    "version": "1.0"
+}
