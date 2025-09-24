@@ -1,6 +1,6 @@
 {
     "manifest_version": 3,
-    "version": "1.1",
+    "version": "1.3",
     "name": "Retro Computer Sounds",
     "description": "Just some fun retro computer sounds",
     "developer": {
@@ -27,13 +27,26 @@
                     "sounds/click.mp3"
                 ],
                 "LIMITER_OFF": [
-                    "sounds/floppy_remove.mp3"
+                    "sounds/off.mp3"
                 ],
                 "LIMITER_ON": [
-                    "sounds/floppy_insert.mp3"
+                    "sounds/on.mp3"
+                ],
+                "HOVER": [
+                    "sounds/drive_read1.mp3",
+                    "sounds/drive_read2.mp3",
+                    "sounds/drive_read3.mp3"
+                ],
+                "HOVER_UP": [
+                    "sounds/drive_read1.mp3",
+                    "sounds/drive_read2.mp3",
+                    "sounds/drive_read3.mp3"
                 ],
                 "SWITCH_TOGGLE": [
-                    "sounds/beep.mp3"
+                    "sounds/switch1.mp3",
+                    "sounds/switch2.mp3",
+                    "sounds/switch3.mp3",
+                    "sounds/switch4.mp3"
                 ],
                 "TAB_CLOSE": [
                     "sounds/floppy_read1.mp3",
@@ -46,7 +59,7 @@
                     "sounds/floppy_read3.mp3"
                 ],
                 "TAB_SLASH": [
-                    "sounds/off.mp3"
+                    "sounds/beep.mp3"
                 ]
             },
             "keyboard_sounds": {
